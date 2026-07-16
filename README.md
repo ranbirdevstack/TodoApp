@@ -1,16 +1,24 @@
-# React + Vite
+# 📝 React Redux Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly responsive **Todo Application** built using **React** and **Redux Toolkit** for centralized state management. This application showcases clean state flows, interactive user inputs, and nested CSS styling with system variable variables.
 
-Currently, two official plugins are available:
+**🌍 Live Demo:** [todo-app-brown-sigma-12.vercel.app](https://vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Keyboard Submission:** Press `Enter` inside the input box to instantly dispatch tasks.
+*   **Disabled Form Protections:** Automatically blocks empty space or blank strings.
+*   **Centralized Slices:** State manipulation utilizes `addTodo`, `deleteTodo`, and `markasDone`.
+*   **Adaptive Theme Support:** CSS structure supports explicit `:root` light and dark schemes.
+*   **Clean Flexbox Layout:** Horizontally and vertically centered user card layouts.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+*   **Frontend Library:** [React](https://react.dev)
+*   **State Management:** [Redux Toolkit](https://js.org) & [React-Redux](https://js.org)
+*   **Styling Engine:** Native CSS Nesting (`Todo.css` & `App.css`)
+*   **Hosting System:** [Vercel](https://vercel.com)
